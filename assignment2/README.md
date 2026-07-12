@@ -1,4 +1,4 @@
-# Simple Calculations Assignment
+# Simple Calculations
 
 Web 4: [Assignment 2](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/assignment2)
 
