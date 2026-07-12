@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: #aaa;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* To hide spinner controls for input (type: number) */
+input[type='number'] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  width: 60rem;
+}
+
+/**************************************************
+* FORM
+**************************************************/
+.form {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1rem;
+
+  margin-bottom: 6rem;
+}
+
+.form__row {
+  display: contents;
+
+  font-size: 2rem;
+}
+
+.form input {
+  width: 50%;
+  padding: 0.2rem;
+
+  font-size: inherit;
+
+  outline: none;
+  border: none;
+}
+
+.btn-group {
+  grid-column: 2;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+
+  color: white;
+  font-size: 1.6rem;
+
+  border: none;
+  border-radius: 0.4rem;
+
+  box-shadow: 0.1rem 0.1rem 0.2rem #000;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+.form button:active {
+  box-shadow: none;
+}
+
+.result {
+  display: none;
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Interest Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <div class="form__row">
+          <label for="principal">Principal</label>
+          <input type="number" id="principal" required />
+        </div>
+
+        <div class="form__row">
+          <label for="rate">Interest Rate</label>
+          <input type="number" id="rate" required />
+        </div>
+
+        <div class="form__row">
+          <label for="time">Time</label>
+          <input type="number" id="time" required />
+        </div>
+
+        <div class="form__row">
+          <div class="btn-group">
+            <button type="submit" id="calculate" class="btn btn-green">
+              Calculate
+            </button>
+            <button type="reset" id="reset" class="btn btn-red">Clear</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="result">
+        <h2 class="result__title">Your Results</h2>
+        <p>
+          With a beginning principal of $<span class="principal"></span> and
+          with a growth rate of <span class="rate"></span>% for
+          <span class="time"></span> years, your total interest will be $<span
+            class="total-interest"
+          ></span>
+          with a grand total of $<span class="grand-total"></span>.
+        </p>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
