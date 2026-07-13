@@ -22,10 +22,10 @@ btnCalc.addEventListener('click', (event) => {
   event.preventDefault();
 
   // Receive input from the DOM and calculate interest
-  let principal = parseFloat(principalInput.value);
-  let rate = parseFloat(rateInput.value);
-  let time = parseFloat(timeInput.value);
-  let interest = calculateInterest(principal, rate / 100, time);
+  const principal = parseFloat(principalInput.value);
+  const rate = parseFloat(rateInput.value);
+  const time = parseFloat(timeInput.value);
+  const interest = calculateInterest(principal, rate / 100, time);
 
   // Output results
   if (principal && rate && time) {
