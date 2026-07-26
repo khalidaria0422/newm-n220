@@ -1,6 +1,6 @@
 # Interest Calculator
 
-Web 4: [Assignment 3](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/assignment3)
+Web 4: [Homework 3](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-three)
 
 ## Instructions
 
