@@ -1,6 +1,6 @@
 # Objects and Decisions
 
-Web 4: [Homework 4](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-four)
+Web 4: [Homework 4](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-four/objectsDecisions.html)
 
 ## Instructions
 

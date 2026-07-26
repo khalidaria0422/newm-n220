@@ -1,6 +1,6 @@
 # Test Page
 
-Web 4: [Homework 1](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-one)
+Web 4: [Homework 1](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-one/test.html)
 
 ## Instructions
 

@@ -1,6 +1,6 @@
 # Simple Calculations
 
-Web 4: [Homework 2](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-two)
+Web 4: [Homework 2](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-two/simpleCalculations.html)
 
 ## Instructions
 
