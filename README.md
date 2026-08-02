@@ -9,3 +9,4 @@ Look in the subdirectories for more info/instructions.
 - [Homework 3 (Interest Calculator)](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-three)
 - [Homework 4 (Objects and Decisions)](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-four/objectsDecisions.html)
 - [Homework 5 (Working the DOM)](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-five/workingTheDOM.html)
+- [Homework 6 (Debugging)](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-six/RPSG.html)
