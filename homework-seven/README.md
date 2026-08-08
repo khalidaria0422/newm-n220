@@ -8,7 +8,7 @@ I've used Phosphor Icons instead with an `i` tag instead of the `img` tag.
 
 # Advanced List
 
-Web 4: [Homework 7](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-six/RPSG.html)
+Web 4: [Homework 7](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/homework-seven/advList_Mod.html)
 
 ## Instructions
 
