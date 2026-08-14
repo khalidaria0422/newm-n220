@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="form">
+        <div class="form-row">
+          <label for="username">Username:</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-row">
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" />
+          <p id="error" style="color: red"></p>
+        </div>
+        <div class="form-row">
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            name="confirm password"
+            id="confirm-password"
+          />
+        </div>
+
+        <button type="button" id="register">Register</button>
+      </form>
+
+      <h1 id="welcome-register" style="color: black"></h1>
+
+      <form action="" class="form">
+        <div class="form-row">
+          <label for="username">Username:</label>
+          <input type="text" name="username" id="username-login" />
+        </div>
+        <div class="form-row">
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password-login" />
+        </div>
+
+        <button type="button" id="login">Login</button>
+
+        <h3 id="welcome-login"></h3>
+      </form>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

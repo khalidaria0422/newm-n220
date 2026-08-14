@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  width: 20rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 25%;
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+button:active {
+  background-color: blueviolet;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 50%;
+  height: 70vh;
+  padding: 5rem;
+  margin-inline: auto;
+
+  background-color: green;
+}
+
+.form {
+  padding: 2rem;
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
