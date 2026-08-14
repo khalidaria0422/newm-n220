@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Cost Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <input
+          type="number"
+          name="price"
+          placeholder="Price"
+          id="price-input"
+        />
+        <input
+          type="text"
+          name="Discount Code"
+          placeholder="Discount Code"
+          id="discount-code"
+        />
+      </div>
+
+      <button type="button" id="new-price">New Price</button>
+
+      <div class="output hidden">
+        <p>Your Total: $<span id="price-output"></span></p>
+        <p>You saved: $<span id="saved"></span></p>
+        <button type="button" id="clear">Clear</button>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

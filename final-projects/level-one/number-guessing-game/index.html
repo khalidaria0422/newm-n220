@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Number Guessing Game</title>
+  </head>
+  <body>
+    <p style="margin: 1rem 0 0 1rem">Wins: <span id="wins">0</span></p>
+    <p style="margin-left: 1rem">Losses: <span id="losses">0</span></p>
+    <div class="container">
+      <h4 style="margin-bottom: 2rem">Guess a number between 1–100</h4>
+      <p>Chances left: <span id="chances">5</span></p>
+      <input type="number" name="number" id="number" />
+      <button type="button" id="confirm">Confirm guess</button>
+      <p id="hint"></p>
+    </div>
+
+    <!-- FOR THE PROFESSOR AND DEBUGGING ONLY -->
+    <p
+      style="position: absolute; right: 0; top: 0; font-size: small; color: red"
+    >
+      For the Professor only: check console for the random number.
+    </p>
+    <script src="js/main.js"></script>
+  </body>
+</html>
