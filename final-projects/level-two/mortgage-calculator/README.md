@@ -1,6 +1,6 @@
 # Mortgage Calculator
 
-Web 4: [Level 2 — Project 4](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/final-projects/level-two/mortage-calculator)
+Web 4: [Level 2 — Project 4](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/final-projects/level-two/mortgage-calculator)
 
 ## Instructions
 
