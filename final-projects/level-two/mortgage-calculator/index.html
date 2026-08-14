@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Mortgage Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="number"
+        name="loan amount"
+        placeholder="Loan Amount"
+        id="loan-amount"
+      />
+      <input
+        type="number"
+        name="interest rate"
+        placeholder="Interest Rate"
+        id="interest-rate"
+      />
+      <input
+        type="number"
+        name="loan terms"
+        placeholder="Loan Terms (in years)"
+        id="loan-terms"
+      />
+      <button type="button" id="calculate-monthly">Calculate monthly</button>
+
+      <div class="output"></div>
+      <button type="button" class="hidden" id="clear">Clear</button>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
