@@ -28,6 +28,5 @@ Look in the subdirectories for more info/instructions.
 
 ### Level 4
 
-In progress...
-
+- [Advanced Slide Show](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/final-projects/level-four/advanced-slide-show)
 - [Grade Finder](https://in-info-web4.luddy.indianapolis.iu.edu/~karia/newm-n220/final-projects/level-four/grade-finder)
