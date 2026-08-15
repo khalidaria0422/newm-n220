@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Slide Show</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="images">
+        <img src="images/image-0.jpg" alt="" id="img" />
+      </div>
+      <div class="media-controls">
+        <button type="button" id="back">
+          <i class="ph ph-skip-back"></i>
+        </button>
+        <button type="button" id="play">
+          <i class="ph ph-play" id="play-icon"></i>
+        </button>
+        <button type="button" id="forward">
+          <i class="ph ph-skip-forward"></i>
+        </button>
+
+        <select name="speed" id="speed-options">
+          <option value="3000">0.5x</option>
+          <option value="2000" selected>1x</option>
+          <option value="1000">2x</option>
+        </select>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
